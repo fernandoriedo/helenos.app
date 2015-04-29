@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Helenos\nApp</string>
+
+    <string name="txt_acessar">Acessar</string>
+    
+    <string name="hint_login">usuário</string>
+    <string name="hint_senha">senha</string>
+
+</resources>
