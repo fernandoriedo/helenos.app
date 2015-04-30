@@ -7,7 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/branco"
-    tools:context="com.heleno.helenosapp.activity.LoginActivity" >
+    tools:context="com.heleno.helenosapp.LoginActivity" >
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -38,6 +38,7 @@
         android:ems="10"
         android:hint="@string/hint_senha"
         android:inputType="textPassword" />
+
 
     <com.gc.materialdesign.views.ButtonRectangle
         android:id="@+id/btnAcessar"

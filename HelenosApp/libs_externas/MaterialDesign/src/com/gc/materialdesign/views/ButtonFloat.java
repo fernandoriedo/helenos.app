@@ -15,6 +15,7 @@ import android.graphics.PorterDuff.Mode;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.Bitmap.Config;
+import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.animation.BounceInterpolator;
@@ -164,7 +165,7 @@ public class ButtonFloat extends Button{
 
 	    paint.setAntiAlias(true);
 	    canvas.drawARGB(0, 0, 0, 0);
-	    paint.setColor(color);
+	    paint.setColor(Color.parseColor("#881212"));
 	    canvas.drawCircle(bitmap.getWidth() / 2, bitmap.getHeight() / 2,
 	            bitmap.getWidth()/2, paint);
 	    paint.setXfermode(new PorterDuffXfermode(Mode.SRC_IN));
